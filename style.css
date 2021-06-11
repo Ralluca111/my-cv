@@ -158,10 +158,8 @@ ul {
 }
 
 .company-video {
-    overflow: hidden;
     padding-bottom: 56.25%;
     position: relative;
-    height: 0;
 }
 
 .company-video iframe {
@@ -226,5 +224,10 @@ ul {
         height: 10.625rem;
     }
     
-    
+    .company-video {
+        padding-bottom: 30%;
+        position: relative;
+        width: 60%;
+        margin: auto;
+    } 
 }
