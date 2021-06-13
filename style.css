@@ -79,7 +79,7 @@ h4 {
 .page-header {
     background-color: rgba(194, 19, 57, 0.904); /*rgba(194, 19, 57, 0.904)*/
     color: rgb(241, 241, 241);
-    padding: 30px 0;
+    padding: 30px 10px;
     text-align: center;
 }
 
@@ -104,8 +104,7 @@ h4 {
     border: 2px solid #2d2f97;
     border-radius: 6px;
     margin-top: 30px;
-    padding: 6px 15px;
-    font-size: 1rem;
+    padding: 6px 10px;
     box-shadow: 2px 2px 8px rgb(116, 84, 65);
 }
 
