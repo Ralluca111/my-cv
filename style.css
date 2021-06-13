@@ -103,7 +103,7 @@ h4 {
     color: #2d2f97;
     border: 2px solid #2d2f97;
     border-radius: 6px;
-    margin-top: 30px;
+    margin: 30px 10px 0;
     padding: 6px 10px;
     box-shadow: 2px 2px 8px rgb(116, 84, 65);
 }
