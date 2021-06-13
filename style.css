@@ -24,8 +24,8 @@ a:hover {
 }
 
 h1 {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
+    font-size: 1.45rem;
+    margin-bottom: 25px;
 }
 
 h2,
@@ -57,21 +57,7 @@ h4 {
     text-align: center;
 }
 
-#myButton {
-    display: inline-block;
-    background-color: #2d2f97;
-    color: rgb(241, 241, 241);
-    border-radius: 6px;
-    margin-top: 15px;
-    padding: 8px 15px;
-    font-size: 1rem;
-}
 
-#myButton:hover {
-    background-color: rgb(241, 241, 241);
-    color: #2d2f97;
-    border: 2px solid #2d2f97;
-}
                   
 .container-cv {
     /*background-color: rgb(255, 255, 255);*/
@@ -88,8 +74,48 @@ h4 {
     padding: 0 20px;
 }
 
+/* ========== PAGE HEADER ========== */
 
-/* ========== HEADER ========== */
+.page-header {
+    background-color: rgba(194, 19, 57, 0.904); /*rgba(194, 19, 57, 0.904)*/
+    color: rgb(241, 241, 241);
+    padding: 30px 0;
+    text-align: center;
+}
+
+.welcome {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+.tech-skills {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 15px 15px 0 15px;
+    border: 1px solid rgb(241, 241, 241);
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgb(102, 101, 101);
+}
+
+#myButton {
+    display: inline-block;
+    background-color: rgb(241, 241, 241);
+    color: #2d2f97;
+    border: 2px solid #2d2f97;
+    border-radius: 6px;
+    margin-top: 30px;
+    padding: 6px 15px;
+    font-size: 1rem;
+    box-shadow: 2px 2px 8px rgb(116, 84, 65);
+}
+
+#myButton:hover {
+    background-color: #2d2f97;
+    color: rgb(241, 241, 241);
+}
+
+
+/* ========== CV HEADER ========== */
 
 header {
     background-color: #040688e0;
@@ -116,12 +142,7 @@ header {
     padding: 4px;
     background-color: rgb(241, 241, 241);
     transition: all 0.5s ease-in-out;
-    filter: grayscale(50%);
-}
-
-.profile-photo img:hover {
-    transform: scale(1.5);
-    filter: grayscale(10%);
+    filter: grayscale(30%);
 }
 
 .contact-categ {
@@ -132,11 +153,6 @@ i {
     margin-right: 10px;
 }
 
-.linkedin {
-    margin-top: 20px;
-    font-size: 1.1rem;
-    display: inline-block;
-}
 
 
 /* ========== MAIN ========== */
@@ -155,6 +171,10 @@ ul {
 
 .objective p {
     padding: 15px 0;
+}
+
+.fa-arrow-down {
+    font-size: 1.2rem;
 }
 
 .company-video {
@@ -207,7 +227,7 @@ ul {
 
 
     h1 {
-        font-size: 1.75rem;
+        font-size: 1.8rem;
     }
     
     .container-cv {
